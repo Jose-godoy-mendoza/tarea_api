@@ -1,0 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace clase_api.Models
+{
+    public class Puestos
+    {
+
+    [Key]
+    public int id_puesto {get;set;}
+    public string puesto {get;set;}
+    }
+}
